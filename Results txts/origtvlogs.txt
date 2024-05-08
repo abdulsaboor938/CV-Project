@@ -1,0 +1,162 @@
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_tvsum_google_pool5.h5', userscore='datasets/summarizer_dataset_tvsum_google_pool5.h5', split='splits/tvsum_splits.json', split_id=0, metric='tvsum', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=1, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/tvsum-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_tvsum_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  49.5%
+2    video_22  58.5%
+3    video_31  66.9%
+4    video_34  59.3%
+5    video_38  43.6%
+6    video_43  62.8%
+7    video_45  72.7%
+8    video_5   64.1%
+9    video_6   66.5%
+10   video_8   49.5%
+---  --------  -------
+Average F1-score 59.4%
+Average Kendal 0.06195526017560611
+Average Spear 0.0816896420655567
+Finished. Total elapsed time (h:m:s): 0:00:03
+Model saved to log/tvsum-split/tvsum_model_epoch_1_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_tvsum_google_pool5.h5', userscore='datasets/summarizer_dataset_tvsum_google_pool5.h5', split='splits/tvsum_splits.json', split_id=0, metric='tvsum', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=10, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/tvsum-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_tvsum_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  47.6%
+2    video_22  58.5%
+3    video_31  66.9%
+4    video_34  59.9%
+5    video_38  43.6%
+6    video_43  62.8%
+7    video_45  72.7%
+8    video_5   64.1%
+9    video_6   66.5%
+10   video_8   48.2%
+---  --------  -------
+Average F1-score 59.1%
+Average Kendal 0.05979586763186069
+Average Spear 0.07937777695546687
+Finished. Total elapsed time (h:m:s): 0:00:12
+Model saved to log/tvsum-split/tvsum_model_epoch_10_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_tvsum_google_pool5.h5', userscore='datasets/summarizer_dataset_tvsum_google_pool5.h5', split='splits/tvsum_splits.json', split_id=0, metric='tvsum', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=50, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/tvsum-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_tvsum_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  45.6%
+2    video_22  54.2%
+3    video_31  66.9%
+4    video_34  50.1%
+5    video_38  43.6%
+6    video_43  59.3%
+7    video_45  72.7%
+8    video_5   64.1%
+9    video_6   64.6%
+10   video_8   41.2%
+---  --------  -------
+Average F1-score 56.2%
+Average Kendal -0.007363493695029283
+Average Spear -0.008048468859971637
+Finished. Total elapsed time (h:m:s): 0:00:51
+Model saved to log/tvsum-split/tvsum_model_epoch_50_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_tvsum_google_pool5.h5', userscore='datasets/summarizer_dataset_tvsum_google_pool5.h5', split='splits/tvsum_splits.json', split_id=0, metric='tvsum', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=100, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/tvsum-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_tvsum_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  55.8%
+2    video_22  56.9%
+3    video_31  66.9%
+4    video_34  50.1%
+5    video_38  47.2%
+6    video_43  61.1%
+7    video_45  72.7%
+8    video_5   64.1%
+9    video_6   64.4%
+10   video_8   48.2%
+---  --------  -------
+Average F1-score 58.7%
+Average Kendal 0.02859483877436746
+Average Spear 0.03775329684992534
+Finished. Total elapsed time (h:m:s): 0:01:40
+Model saved to log/tvsum-split/tvsum_model_epoch_100_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_tvsum_google_pool5.h5', userscore='datasets/summarizer_dataset_tvsum_google_pool5.h5', split='splits/tvsum_splits.json', split_id=0, metric='tvsum', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=200, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/tvsum-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_tvsum_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  58.1%
+2    video_22  57.5%
+3    video_31  66.9%
+4    video_34  49.2%
+5    video_38  41.8%
+6    video_43  67.8%
+7    video_45  72.7%
+8    video_5   64.3%
+9    video_6   62.4%
+10   video_8   49.0%
+---  --------  -------
+Average F1-score 59.0%
+Average Kendal 0.029813112464304438
+Average Spear 0.03850273231177528
+Finished. Total elapsed time (h:m:s): 0:03:17
+Model saved to log/tvsum-split/tvsum_model_epoch_200_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_tvsum_google_pool5.h5', userscore='datasets/summarizer_dataset_tvsum_google_pool5.h5', split='splits/tvsum_splits.json', split_id=0, metric='tvsum', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=500, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/tvsum-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_tvsum_google_pool5.h5
+# total videos 50. # train videos 40. # test videos 10
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_14  59.7%
+2    video_22  58.4%
+3    video_31  66.9%
+4    video_34  48.5%
+5    video_38  51.4%
+6    video_43  63.0%
+7    video_45  72.7%
+8    video_5   71.7%
+9    video_6   60.9%
+10   video_8   48.5%
+---  --------  -------
+Average F1-score 60.2%
+Average Kendal 0.055772854961515086
+Average Spear 0.0726778567098797
+Finished. Total elapsed time (h:m:s): 0:08:07
+Model saved to log/tvsum-split/tvsum_model_epoch_500_split_id_0-gru.pth.tar

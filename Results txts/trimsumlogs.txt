@@ -1,0 +1,132 @@
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_summe_google_pool5.h5', userscore='datasets/summarizer_dataset_summe_google_pool5.h5', split='splits/summe_splits.json', split_id=0, metric='summe', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=1, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/summe-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_16  28.6%
+2    video_21  17.4%
+3    video_25  77.7%
+4    video_4   67.5%
+5    video_9   51.3%
+---  --------  -------
+Average F1-score 48.5%
+Average Kendal 0.1568247285608145
+Average Spear 0.21557802541251886
+Finished. Total elapsed time (h:m:s): 0:00:03
+Model saved to log/summe-split/summe_model_epoch_1_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_summe_google_pool5.h5', userscore='datasets/summarizer_dataset_summe_google_pool5.h5', split='splits/summe_splits.json', split_id=0, metric='summe', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=10, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/summe-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_16  28.6%
+2    video_21  17.4%
+3    video_25  77.7%
+4    video_4   67.5%
+5    video_9   51.3%
+---  --------  -------
+Average F1-score 48.5%
+Average Kendal 0.1609964279092894
+Average Spear 0.22080153839461564
+Finished. Total elapsed time (h:m:s): 0:00:05
+Model saved to log/summe-split/summe_model_epoch_10_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_summe_google_pool5.h5', userscore='datasets/summarizer_dataset_summe_google_pool5.h5', split='splits/summe_splits.json', split_id=0, metric='summe', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=50, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/summe-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_16  28.6%
+2    video_21  17.4%
+3    video_25  77.7%
+4    video_4   51.1%
+5    video_9   51.3%
+---  --------  -------
+Average F1-score 45.2%
+Average Kendal 0.15904624414909563
+Average Spear 0.21908397414431208
+Finished. Total elapsed time (h:m:s): 0:00:19
+Model saved to log/summe-split/summe_model_epoch_50_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_summe_google_pool5.h5', userscore='datasets/summarizer_dataset_summe_google_pool5.h5', split='splits/summe_splits.json', split_id=0, metric='summe', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=100, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/summe-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_16  28.6%
+2    video_21  27.4%
+3    video_25  77.7%
+4    video_4   48.3%
+5    video_9   48.9%
+---  --------  -------
+Average F1-score 46.2%
+Average Kendal 0.14702573357694573
+Average Spear 0.20029242023151506
+Finished. Total elapsed time (h:m:s): 0:00:37
+Model saved to log/summe-split/summe_model_epoch_100_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_summe_google_pool5.h5', userscore='datasets/summarizer_dataset_summe_google_pool5.h5', split='splits/summe_splits.json', split_id=0, metric='summe', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=200, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/summe-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_16  28.6%
+2    video_21  23.7%
+3    video_25  77.7%
+4    video_4   47.4%
+5    video_9   48.9%
+---  --------  -------
+Average F1-score 45.3%
+Average Kendal 0.059393108440332784
+Average Spear 0.08085789672924938
+Finished. Total elapsed time (h:m:s): 0:01:13
+Model saved to log/summe-split/summe_model_epoch_200_split_id_0-gru.pth.tar
+==========
+Args:Namespace(dataset='datasets/eccv16_dataset_summe_google_pool5.h5', userscore='datasets/summarizer_dataset_summe_google_pool5.h5', split='splits/summe_splits.json', split_id=0, metric='summe', input_dim=1024, hidden_dim=512, num_layers=2, rnn_cell='gru', lr=1e-05, weight_decay=1e-05, max_epoch=500, stepsize=30, gamma=0.1, num_episode=5, beta=0.01, seed=1, gpu='0', use_cpu=False, evaluate=False, save_dir='log/summe-split', resume='', verbose=True, save_results=True)
+==========
+Currently using GPU 0
+Initialize dataset datasets/eccv16_dataset_summe_google_pool5.h5
+# total videos 25. # train videos 20. # test videos 5
+Initialize model
+==> Start training
+==> Test
+---  --------  -------
+No.  Video     F-score
+1    video_16  34.9%
+2    video_21  23.8%
+3    video_25  57.6%
+4    video_4   57.9%
+5    video_9   38.2%
+---  --------  -------
+Average F1-score 42.5%
+Average Kendal -0.06392614155873795
+Average Spear -0.09062580119113683
+Finished. Total elapsed time (h:m:s): 0:03:01
+Model saved to log/summe-split/summe_model_epoch_500_split_id_0-gru.pth.tar
